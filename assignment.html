@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web App</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Web App</h1>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button type="submit">Login</button>
+        </form>
+        <form id="signupForm">
+            <input type="text" id="newUsername" placeholder="New Username">
+            <input type="password" id="newPassword" placeholder="New Password">
+            <button type="submit">Sign Up</button>
+        </form>
+        <div id="uploadForm">
+            <input type="file" id="fileInput">
+            <button onclick="uploadImage()">Upload Image</button>
+        </div>
+    </div>
+    <script src="assignment.js"></script>
+</body>
+</html>
